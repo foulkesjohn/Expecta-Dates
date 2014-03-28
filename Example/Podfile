@@ -1,0 +1,7 @@
+pod "Expecta+Dates", :path => "../Expecta+Dates.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
