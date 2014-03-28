@@ -1,0 +1,17 @@
+PODS:
+  - Expecta (0.3.0)
+  - Expecta+Dates (0.1.0)
+
+DEPENDENCIES:
+  - Expecta (~> 0.3)
+  - Expecta+Dates (from `./Expecta+Dates.podspec`)
+
+EXTERNAL SOURCES:
+  Expecta+Dates:
+    :path: ./Expecta+Dates.podspec
+
+SPEC CHECKSUMS:
+  Expecta: 322f1dc42610106a5ba9871b4924cf1635d80833
+  Expecta+Dates: 2107e6c23bc9d4696ed0bce9feba9fac37974a8a
+
+COCOAPODS: 0.29.0
