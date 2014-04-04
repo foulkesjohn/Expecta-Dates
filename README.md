@@ -28,7 +28,8 @@ it simply add the following line to your Podfile:
 
 ## Author
 
-John Foulkes, foulkes_john@hotmail.com
+[@jfoulkes](https://twitter.com/jfoulkes), foulkes_john@hotmail.com
+
 ## License
 
 Expecta+Dates is available under the MIT license. See the LICENSE file for more info.
