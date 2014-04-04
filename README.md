@@ -9,6 +9,16 @@
 
 To run the example project; clone the repo, and run `pod install` from the Example directory first.
 
+## Matchers
+
+### Same date
+
+```
+NSDate *dateOne = [NSDate date];
+NSDate *dateTwo = [NSDate date];
+expect(dateOne).to.beSameDay(dateTwo);
+```
+
 ## Installation
 
 Expecta+Dates is available through [CocoaPods](http://cocoapods.org), to install
