@@ -12,6 +12,8 @@
 		5254ABC018E5D33700EC2AB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5254AB7A18E5D2D000EC2AB6 /* UIKit.framework */; };
 		5254ABC618E5D33700EC2AB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5254ABC418E5D33700EC2AB6 /* InfoPlist.strings */; };
 		5254ABD018E5D5D600EC2AB6 /* EXPMatchers+beSameDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5254ABCF18E5D5D600EC2AB6 /* EXPMatchers+beSameDay.m */; };
+		526540E518E5DA6B00770DE8 /* FakeTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 526540E418E5DA6B00770DE8 /* FakeTestCase.m */; };
+		526540E818E5DA9900770DE8 /* EXPExpect+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 526540E718E5DA9900770DE8 /* EXPExpect+Test.m */; };
 		D0464C3ED1194A40A679AA3D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A98D539804F10B6842A42 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,10 @@
 		5254ABC518E5D33700EC2AB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5254ABC918E5D33700EC2AB6 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		5254ABCF18E5D5D600EC2AB6 /* EXPMatchers+beSameDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+beSameDay.m"; sourceTree = "<group>"; };
+		526540E318E5DA6B00770DE8 /* FakeTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeTestCase.h; sourceTree = "<group>"; };
+		526540E418E5DA6B00770DE8 /* FakeTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeTestCase.m; sourceTree = "<group>"; };
+		526540E618E5DA9900770DE8 /* EXPExpect+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPExpect+Test.h"; sourceTree = "<group>"; };
+		526540E718E5DA9900770DE8 /* EXPExpect+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPExpect+Test.m"; sourceTree = "<group>"; };
 		676A98D539804F10B6842A42 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BE49EB676A487E976C9F54 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +92,10 @@
 		5254ABC218E5D33700EC2AB6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				526540E618E5DA9900770DE8 /* EXPExpect+Test.h */,
+				526540E718E5DA9900770DE8 /* EXPExpect+Test.m */,
+				526540E318E5DA6B00770DE8 /* FakeTestCase.h */,
+				526540E418E5DA6B00770DE8 /* FakeTestCase.m */,
 				5254ABC318E5D33700EC2AB6 /* UnitTests-Info.plist */,
 				5254ABC418E5D33700EC2AB6 /* InfoPlist.strings */,
 				5254ABC918E5D33700EC2AB6 /* UnitTests-Prefix.pch */,
@@ -189,7 +199,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526540E518E5DA6B00770DE8 /* FakeTestCase.m in Sources */,
 				5254ABD018E5D5D600EC2AB6 /* EXPMatchers+beSameDay.m in Sources */,
+				526540E818E5DA9900770DE8 /* EXPExpect+Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
